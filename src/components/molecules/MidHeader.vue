@@ -5,7 +5,7 @@ import Link from "../atoms/Link.vue";
 <template>
   <div class="flex bg-dark-blue-600 text-sm px-2 py-1 items-center text-white">
     <div
-      class="flex items-center border border-transparent hover:border-white rounded-sm px-2 py-2 lg:py-0"
+      class="flex items-center border border-transparent hover:border-gray-400 rounded-sm px-2 py-2 lg:py-0 cursor-pointer"
     >
       <div class="mr-1 lg:mr-3">
         <i class="fas fa-map-marker-alt text-xl"></i>

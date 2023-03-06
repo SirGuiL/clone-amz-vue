@@ -4,7 +4,7 @@
 
 @layer components {
     .main-select {
-        @apply hidden lg:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500
+        @apply hidden lg:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500 cursor-pointer
     }
     .header-content-sm {
         @apply hidden lg:block pb-1 text-xs border border-transparent hover:border-gray-400 rounded-sm p-2 cursor-pointer
@@ -17,5 +17,8 @@
     }
     .link {
         @apply mr-4 border border-transparent hover:border-gray-400 cursor-pointer rounded-sm px-2 py-1
+    }
+    .bottom-nav-link {
+        @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3 cursor-pointer
     }
 }
