@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .main-select {
+        @apply hidden lg:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500
+    }
+    .header-content-sm {
+        @apply hidden lg:block pb-1 text-xs border border-transparent hover:border-gray-400 rounded-sm p-2 cursor-pointer
+    }
+    .header-cart {
+        @apply p-1 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 lg:mr-0 lg:relative order-1 lg:order-none lg:flex cursor-pointer
+    }
+    .notification-cart {
+        @apply font-bold text-gold-200 text-xs absolute top-0 left-0 ml-5 text-center w-4 h-4 bg-dark-blue-600 rounded-full
+    }
+    .link {
+        @apply mr-4 border border-transparent hover:border-gray-400 cursor-pointer rounded-sm px-2 py-1
+    }
+}
