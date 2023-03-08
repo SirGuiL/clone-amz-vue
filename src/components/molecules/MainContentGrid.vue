@@ -1,6 +1,7 @@
 <script setup>
 import GridLink from '../atoms/GridLink.vue';
 import Banner from '../atoms/Banner.vue';
+import RoundedCard from '../atoms/RoundedCard.vue';
 </script>
 
 <template>
@@ -27,6 +28,22 @@ import Banner from '../atoms/Banner.vue';
             Assine o Amazon Prime para ter benefícios de leitura com o Prime Reading, frete GRÁTIS sem valor mínimo de compra e muito mais. Apenas R$ 9,90/mês
           </p>
           <a href="#" class="free-trial-btn">Teste GRÁTIS por 30 dias</a>
+        </div>
+        <div class="flex flex-col px-6 pb-8 border-b border-gray-300">
+          <h3 class="text-center lg:text-left text-xl font-bold mb-4">
+            Encontre ofertas por categorias
+          </h3>
+          <ul class="flex flex-wrap lg:flex-no-wrap px-2 text-xs font-bold">
+            <RoundedCard title="Todas as Ofertas"  />
+            <RoundedCard title="Ofertas Relâmpago" index="2"  />
+            <RoundedCard title="Literatura" index="3" />
+            <RoundedCard title="HQs e Mangás" index="4" />
+            <RoundedCard title="Ficção" index="5" />
+            <RoundedCard title="Inglês e Outras Línguas" index="6" />
+            <RoundedCard title="Autoajuda" index="7" />
+            <RoundedCard title="Infantil" index="8" />
+            <RoundedCard title="Negócios" index="9" />
+          </ul>
         </div>
     </div>
   </div>

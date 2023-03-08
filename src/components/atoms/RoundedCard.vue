@@ -1,0 +1,26 @@
+<script setup>
+const props = defineProps({
+  title: {
+    type: String,
+    default: "text",
+  },
+  index: {
+    type: Number,
+    required: true,
+    default: 1,
+  },
+});
+</script>
+
+<template>
+  <li class="text-center mx-3 mb-4 lg:mb-0">
+    <img
+      :src="`src/assets/cat${index}.jpg`"
+      :alt="title"
+      class="rounded w-full lg:w-75px mb-2 mx-auto cursor-pointer"
+    />
+    <a href="#">{{title}}</a>
+  </li>
+</template>
+
+<style scoped></style>
