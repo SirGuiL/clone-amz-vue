@@ -4,7 +4,7 @@ import LeftList from "../atoms/LeftList.vue";
 
 <template>
   <div
-    class="col-span-1 h-screen hidden lg:block pl-2 my-2 border-r border-gray-300 text-xs"
+    class="col-span-1 h-full hidden lg:block pl-2 my-2 border-r border-gray-300 text-xs"
   >
     <LeftList
       title="Destaque em Livros"

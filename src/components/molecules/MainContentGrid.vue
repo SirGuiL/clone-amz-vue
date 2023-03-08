@@ -2,6 +2,7 @@
 import GridLink from '../atoms/GridLink.vue';
 import Banner from '../atoms/Banner.vue';
 import RoundedCard from '../atoms/RoundedCard.vue';
+import ProductCard from '../atoms/ProductCard.vue';
 </script>
 
 <template>
@@ -44,6 +45,27 @@ import RoundedCard from '../atoms/RoundedCard.vue';
             <RoundedCard title="Infantil" :index="8" />
             <RoundedCard title="Negócios" :index="9" />
           </ul>
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-between py-2 px-4 text-sm">
+            <p>Mostrando 1-32 de 122 Resultados</p>
+            <div class="flex lg:flex-none">
+              <span>Ordenar por</span>
+              <select name="" id="" class="bg-gray-300 pr-4 lg:pr-12 ml-3 rounded-sm border border-gray-600 text-xs px-1">
+                <option value="Destaques">Destaques</option>
+              </select>
+            </div>
+          </div>
+          <div class="flex flex-wrap border-gray-300 divide-gray-300 mb-10 mt-10">
+            <ProductCard title="Em busca de sentido" image="livro1" :price="['26,30', '63,60', '58%']" />
+            <ProductCard title="Não se humilha, não" image="livro2" :price="['17,40', '39,90', '56%']" />
+            <ProductCard title="As seis lições" image="livro3" :price="['17,40', '34,90', '50%']" />
+            <ProductCard title="Anne II" image="livro4" :price="['27,90', '49,90', '44%']" />
+            <ProductCard title="Propósito - A Coragem de ser quem somos" image="livro5" :price="['13,40', '39,90', '66%']" />
+            <ProductCard title="A morte de Ivan Ilitch" image="livro6" :price="['20,50', '42,00', '51%']" />
+            <ProductCard title="Outros jeitos de usar a boca" image="livro7" :price="['10,40', '37,90', '73%']" />
+            <ProductCard title="Nassim Nicholas Taleb - Kit exclusivo Amazon" image="livro8" :price="['55,90', '119,90', '53%']" />
+          </div>
         </div>
     </div>
   </div>
