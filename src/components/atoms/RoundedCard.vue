@@ -6,7 +6,6 @@ const props = defineProps({
   },
   index: {
     type: Number,
-    required: true,
     default: 1,
   },
 });
@@ -19,7 +18,7 @@ const props = defineProps({
       :alt="title"
       class="rounded w-full lg:w-75px mb-2 mx-auto cursor-pointer"
     />
-    <a href="#">{{title}}</a>
+    <a href="#" class="lg:flex lg:text-center lg:justify-center lg:w-24">{{title}}</a>
   </li>
 </template>
 
