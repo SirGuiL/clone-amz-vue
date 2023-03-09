@@ -25,7 +25,6 @@
     <p class="hidden lg:block mb-10 text-gray-600">Amazon serviços de varejo Ltda. | CNPJ: 15.436.940/0001-03</p>
     <p class="hidden lg:block mb-10 text-gray-600">
         Av. Juscelino Kubischeck, 2041, torre E, 18º andar - São Paulo
-        <a href="#" class="text-blue-800">Fale conosco</a>
     </p>
     <p class="hidden lg:block mb-10 text-gray-600">Formas de pagamento aceitas: cartões de crédito (Visa, Mastercard, Elo, American Express) e boleto.</p>
 </div>
