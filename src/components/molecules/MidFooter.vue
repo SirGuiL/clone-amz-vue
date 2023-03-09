@@ -25,6 +25,10 @@ import CountryLink from "../atoms/CountryLink.vue";
       <CountryLink title="Reino Unido" />
       <CountryLink title="Turquia" isLast />
     </ul>
+    <div class="flex text-xs mt-5">
+        <span class="text-gray-600 mr-2">E não esqueça:</span>
+        <a href="#" class="text-gray-400 hover:underline">Amazon Web Services</a>
+    </div>
   </div>
 </template>
 
